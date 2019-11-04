@@ -37,13 +37,16 @@
     position: relative;
     min-height: 220vh;
 }
+.pagewrappers {
+    position: relative;
+    min-height: 100vh;
+}
 
 img {
     width: 150px;
     height: 200px;
     float: left;
     margin-right: 25px;
-    margin-bottom: 15px;
 }
 
 .story {
@@ -78,6 +81,7 @@ img {
     text-decoration: none;
 }
 .box {
+    border-radius: 5px;;
     width: 60%;
     height: 100px;
     margin: 0 auto;
