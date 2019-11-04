@@ -116,7 +116,7 @@ img {
 
 .contact {
     font-size: 120%;
-    margin-left: 50px;
+    margin-left: 35px;
 }
 
 i {
@@ -137,4 +137,7 @@ button {
 button:hover{
     background-color: white;
     color: rgb(74, 165, 74);
+}
+.top {
+    margin: 0 0 0 15%;
 }
