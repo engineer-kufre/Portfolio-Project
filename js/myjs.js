@@ -11,6 +11,15 @@ $(document).ready(function() {
         email: $email.val(),
         message: $message.val(),
       };
+      // if (!name || !email || !message) {
+      //   Swal.fire({
+      //     title: 'Warning!',
+      //     text: 'Kindly fill in all fields',
+      //     type: 'warning',
+      //     confirmButtonText: 'OK'
+      //   })
+      //   return;
+      // }
       $.ajax({
         type: 'POST',
         url: 'http://localhost:3000/messages',
