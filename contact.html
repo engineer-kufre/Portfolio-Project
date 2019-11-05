@@ -8,6 +8,7 @@
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link type="text/css" rel="stylesheet" href="css/mycss.css"/>
+    <link rel="stylesheet" href="sweetalert2.min.css">
 </head>
 <body>
     <div class="pagewrappers">
@@ -24,7 +25,7 @@
                 </ul>
             </div>
             </header>
-            <form class="story">
+            <form class="story" id="contact-form">
                 <h2  class="cap">CONTACT:</h2>
 
                 <i style="float:left; margin-top: 8px;" class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
@@ -33,12 +34,12 @@
                 <p class="contact">(+234)804 194 1941</p> <br>
                 <div>
                     <p class="top"><b>Name</b></p>
-                    <input class="inputs" type="text" placeholder="Enter Name"><br>
+                    <input class="inputs" id="name" type="text" placeholder="Enter Name" required><br>
                     <p class="top"><b>Email</b></p>
-                    <input class="inputs" type="text" placeholder="Enter Email Address"><br>
+                    <input class="inputs" id="email" type="email" placeholder="Enter Email Address" required><br>
                     <p class="top"><b>Message</b></p>
-                    <textarea class="inputs" name="text" rows="8" placeholder="Type Your Message"></textarea> <br>
-                    <button class="inputs"><b>SEND</b></button>
+                    <textarea class="inputs" id="message" name="message" rows="8" placeholder="Type Your Message" required></textarea> <br>
+                    <button id="newMessageBtn" class="inputs"><b>SEND</b></button>
                 </div>
                 
             </form>
@@ -48,5 +49,10 @@
             <p>&copy Nov. 2019</p>
         </footer>
     </div>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/myjs.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="sweetalert2.min.js"></script>
 </body>
 </html>
