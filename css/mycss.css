@@ -149,12 +149,14 @@ button:hover{
 }
 .left {
     flex: 1.5;
-    height: 35%;
+    height: 40%;
     background-color: rgba(119, 247, 119, 0.274)
 }
 .right {
     flex: 8.5;
     height: 100%;
+    padding: 140px 150px 100px;
+    overflow-y: scroll;
 }
 .left ul {
     list-style: none;
@@ -162,7 +164,7 @@ button:hover{
     padding: 0px;
 }
 .left ul li a {
-    padding: 18px 40px;
+    padding: 18px 0 18px 40px;
     display: block;
 }
 .left ul li a:hover {
@@ -170,4 +172,21 @@ button:hover{
     padding: 18px;
     color: white;
     background-color: rgb(119, 247, 119)
+}
+
+.right ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 120%;
+}
+.light {
+    background-color: rgba(20, 54, 128, 0.774);
+    color: white;
+    padding: 0.2em 1em;
+}
+.dark {
+    background-color: rgb(20, 54, 128);
+    color: white;
+    padding: 0.2em 1em;
 }
