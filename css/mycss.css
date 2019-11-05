@@ -141,3 +141,33 @@ button:hover{
 .top {
     margin: 0 0 0 15%;
 }
+
+.menu {
+    height: 573px;
+    margin-top: -50px;
+    display: flex;
+}
+.left {
+    flex: 1.5;
+    height: 35%;
+    background-color: rgba(119, 247, 119, 0.274)
+}
+.right {
+    flex: 8.5;
+    height: 100%;
+}
+.left ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.left ul li a {
+    padding: 18px 40px;
+    display: block;
+}
+.left ul li a:hover {
+    text-decoration: none;
+    padding: 18px;
+    color: white;
+    background-color: rgb(119, 247, 119)
+}
